@@ -90,16 +90,24 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="fork-btn">
-              <Button
-                href=""
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
+   <Nav.Item className="fork-btn">
+  <a
+    href="https://github.com/Tanishqk96/Portfolio-website"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="fork-btn-inner"
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "0.5em",
+      textDecoration: "none",
+      color: "white"
+    }}
+  >
+    <CgGitFork style={{ fontSize: "1.2em" }} />
+    <AiFillStar style={{ fontSize: "1.1em" }} />
+  </a>
+</Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

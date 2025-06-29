@@ -7,9 +7,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I’m <span className="purple">Tanishq Korgaonkar</span> from <span className="purple">Bengaluru, India</span>.
+            Hi, I’m <span className="purple">Tanishq Korgaonkar</span> from <span className="purple">Goa, India</span>.
             <br />
-            Currently pursuing my <b>B.Tech in Cybersecurity</b> at Manipal Institute of Technology (CGPA: 8.5).
+            Currently pursuing my <b>B.Tech in Cybersecurity</b> at Manipal Institute of Technology , <span className="purple">Bengaluru </span> (CGPA: 8.5).
             <br />
             <br />
             <span className="purple"><b>Certifications:</b></span>
